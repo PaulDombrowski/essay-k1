@@ -166,7 +166,7 @@
   box-shadow: none;
   pointer-events: none;
   user-select: none;
-  animation: spin 45s linear infinite;
+  animation: spin 90s linear infinite;
 }
 
 .empty-state {

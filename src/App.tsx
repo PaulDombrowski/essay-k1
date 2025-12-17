@@ -181,7 +181,7 @@ function App() {
         const additions: Sprite[] = []
         const newCount = Math.min(maxSprites - active.length, 1 + Math.floor(Math.random() * 2))
         for (let i = 0; i < newCount; i++) {
-          const duration = 38 + Math.random() * 16
+          const duration = 60 + Math.random() * 24
           const side = Math.floor(Math.random() * 4)
           let startX = -10
           let startY = 50
